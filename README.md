@@ -15,7 +15,7 @@ defines a common interface for expression web applications.
 
 * ragtime.sql -
   an adapter for applying migrations to a SQL database
-  
+
 * ragtime.sql.files -
   provides a way of specifying migrations as SQL script files
 
@@ -28,19 +28,19 @@ Add ragtime.core as a dependency if you just want the database-
 independent core:
 
 ```clojure
-:dependencies [[ragtime/ragtime.core "0.3.8"]]
+:dependencies [[ragtime/ragtime.core "0.4.0-SNAPSHOT"]]
 ```
 
 Or add the full library if you want support for SQL databases:
 
 ```clojure
-:dependencies [[ragtime "0.3.8"]]
+:dependencies [[ragtime "0.4.0-SNAPSHOT"]]
 ```
 
 If you want to integrate Ragtime into Leiningen:
 
 ```clojure
-:plugins [[ragtime/ragtime.lein "0.3.8"]]
+:plugins [[ragtime/ragtime.lein "0.4.0-SNAPSHOT"]]
 ```
 
 ## Documentation
