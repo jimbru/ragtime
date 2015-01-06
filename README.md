@@ -48,6 +48,7 @@ If you want to integrate Ragtime into Leiningen:
 
 ## License
 
-Copyright © 2014 James Reeves
+Copyright © 2014 James Reeves.
+Portions copyright © 2015 Jim Brusstar.
 
 Distributed under the Eclipse Public License, the same as Clojure.

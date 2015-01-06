@@ -1,5 +1,10 @@
 (defproject jimbru/ragtime.sql.files "0.3.8"
   :description "Ragtime adapter that reads migrations from SQL files."
+  :url "https://github.com/jimbru/ragtime"
+  :license {:name "Eclipse Public License"
+            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :scm {:name "git"
+        :url "https://github.com/jimbru/ragtime.git"}
   :dependencies [[org.clojure/clojure "1.3.0"]
                  [org.clojure/java.jdbc "0.2.3"]
                  [jimbru/ragtime.sql "0.3.8"]]
