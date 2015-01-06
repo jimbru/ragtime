@@ -1,7 +1,5 @@
 # Ragtime
 
-[![Build Status](https://secure.travis-ci.org/weavejester/ragtime.png)](http://travis-ci.org/weavejester/ragtime)
-
 Ragtime is a Clojure library for migrating structured data. It defines
 a common interface for expressing migrations, much like [Ring][1]
 defines a common interface for expression web applications.
@@ -15,7 +13,7 @@ defines a common interface for expression web applications.
 
 * ragtime.sql -
   an adapter for applying migrations to a SQL database
-  
+
 * ragtime.sql.files -
   provides a way of specifying migrations as SQL script files
 
@@ -28,25 +26,25 @@ Add ragtime.core as a dependency if you just want the database-
 independent core:
 
 ```clojure
-:dependencies [[ragtime/ragtime.core "0.3.8"]]
+:dependencies [[jimbru/ragtime.core "0.3.8"]]
 ```
 
 Or add the full library if you want support for SQL databases:
 
 ```clojure
-:dependencies [[ragtime "0.3.8"]]
+:dependencies [[jimbru/ragtime "0.3.8"]]
 ```
 
 If you want to integrate Ragtime into Leiningen:
 
 ```clojure
-:plugins [[ragtime/ragtime.lein "0.3.8"]]
+:plugins [[jimbru/ragtime.lein "0.3.8"]]
 ```
 
 ## Documentation
 
-* [Wiki](https://github.com/weavejester/ragtime/wiki)
-* [API docs](http://weavejester.github.com/ragtime)
+* [Wiki](https://github.com/jimbru/ragtime/wiki)
+* [API docs](http://jimbru.github.com/ragtime)
 
 ## License
 
