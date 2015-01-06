@@ -1,4 +1,4 @@
-(defproject jimbru/ragtime.core "0.3.8"
+(defproject jimbru/ragtime.core "0.4.0-SNAPSHOT"
   :description "A database-independent migration library"
   :url "https://github.com/jimbru/ragtime"
   :license {:name "Eclipse Public License"

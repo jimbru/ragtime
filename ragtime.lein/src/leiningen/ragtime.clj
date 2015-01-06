@@ -4,8 +4,8 @@
 
 (defn- add-ragtime-deps [project]
   (-> project
-      (deps/add-if-missing '[jimbru/ragtime.core "0.3.8"])
-      (deps/add-if-missing '[jimbru/ragtime.sql "0.3.8"])))
+      (deps/add-if-missing '[jimbru/ragtime.core "0.4.0-SNAPSHOT"])
+      (deps/add-if-missing '[jimbru/ragtime.sql "0.4.0-SNAPSHOT"])))
 
 (defn ragtime
   "Run ragtime.main with the options specified in the project file."

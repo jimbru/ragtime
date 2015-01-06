@@ -1,4 +1,4 @@
-(defproject jimbru/ragtime.lein "0.3.8"
+(defproject jimbru/ragtime.lein "0.4.0-SNAPSHOT"
   :description "A leiningen plugin for Ragtime."
   :url "https://github.com/jimbru/ragtime"
   :license {:name "Eclipse Public License"
